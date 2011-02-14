@@ -1,0 +1,160 @@
+body {
+	background-color: #333339;
+}
+p {
+	padding: 0px;
+	margin: 0px;
+}
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+#header h1 {
+	padding: 0;
+	margin: 0;
+}
+#header {
+	color: #38b;
+	font-size: 3em;
+	margin: 0 0 0 auto;
+	width: 500px;
+}
+#menu {
+	margin: 0 0 0 auto;
+	width: 25%;
+}
+#menu a {
+	color: #bbbbbf;
+	background-color:#55555f;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#menu a:hover {
+	text-decoration: underline;
+}
+#posts {
+	width: 780px;
+	float: left;
+}
+#mainpage {
+	padding-top: 10px;
+	width: 770px;
+}
+input, textarea {
+	background: #aaa;
+	color: black;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid black;
+}
+textarea {
+	width: 760px;
+	height: 100px;
+}
+#fastPost {
+	background-color: #44444f;
+	color: #aaa;
+	padding: 5px;
+	width: 760px;
+}
+#info {
+	width: 20%;
+	float: left;
+}	
+.longInput {
+	width: 606px;
+	float: right;
+}
+#sendButton {
+	text-align: right;
+}
+h3 {
+	margin: 0;
+	color: #169;
+	font-size: 20px;
+	font-family: "Trebuchet MS";
+}
+h3 a {
+	color: #169;
+}
+h3 a:hover {
+	text-decoration: none;
+}
+.date {
+	color: #999;
+}
+.post {
+	color: #aaa;
+	padding: 5px;
+}
+.postbg {
+	background-color: #44444f;
+}
+.extraInfo {
+	text-align: right;
+	color: #777799;
+}
+li {
+	color: #aaa;
+}
+hr {
+	border: 1px solid #44444f;
+	width: 95%;
+}
+#footer, #footer a {
+	color:#888;
+	padding-left: 5px;
+}
+#footer a:hover {
+	text-decoration: none;
+}
+.error {
+	color: red;
+}
+.added {
+	color: green;
+}
+.smiley {
+	cursor: pointer;
+}
+.code {
+	display: block;
+	width: 760px;
+	background-color: #ddd;
+	max-height: 250px;
+	overflow: auto;
+}
+.quote {
+	background-color: #55555F;
+	padding: 2px;
+	display: block;
+	width: 750px;
+}
+.quoteTitle {
+	padding-left: 10px;
+}
+/* Styling */
+.bold {
+	font-weight: bold;
+}
+.underline {
+	text-decoration: underline;
+}
+.italic {
+	font-style: italic;
+}
+.center {
+	display:block;
+	text-align: center;
+}
+.right {
+	display: block;
+	text-align: right;
+}
+.left {
+	display: block;
+	text-align: left;
+	width: 100%;
+}
